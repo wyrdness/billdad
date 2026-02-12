@@ -1,0 +1,150 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/billdad",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "billdad",
+    "name": "Billdad",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": [
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "kangaroo-like",
+      "australian-import",
+      "wisconsin",
+      "humorous",
+      "tall-tale"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A kangaroo-like creature allegedly imported from Australia to Wisconsin, capable of jumping incredible distances across the northern forests.",
+      "full": "The Billdad is unique among fearsome critters as it has an origin story: supposedly an Australian import brought to Wisconsin lumber camps. This kangaroo-like creature can jump extraordinary distances—far beyond any real kangaroo's capability—bounding across the northern forests in great leaps. According to the tall tales, lumberjacks or entrepreneurs imported Billdads from Australia, thinking they'd be useful for lumber camp work, but the creatures escaped into the Wisconsin wilderness where they continue to make their improbable leaps. The Billdad represents the fearsome critter tradition's occasional attempts at pseudo-plausible origin stories, making the absurd seem slightly more believable by giving it a specific backstory."
+    },
+    "etymology": {
+      "origin": "American lumberjack folklore, early 20th century, Wisconsin",
+      "meaning": "Unknown; typical nonsense naming of fearsome critters",
+      "first_use": "circa 1910"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Fearsome Critter",
+      "subtype": "Marsupial-like",
+      "variant": "Australian Import"
+    },
+    "related_phenomena": []
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": "Kangaroo-sized or larger",
+      "coloration": ["varies, kangaroo-like"],
+      "features": [
+        {
+          "feature": "Kangaroo-like build",
+          "description": "Marsupial appearance with powerful hind legs",
+          "frequency": "always"
+        },
+        {
+          "feature": "Jumping ability",
+          "description": "Can leap incredible distances",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Resembles a kangaroo but with exaggerated jumping capabilities"
+    },
+    "abilities": [
+      {
+        "ability": "Extreme jumping",
+        "description": "Leaps distances far beyond natural kangaroos",
+        "frequency": "constant",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Cold adaptation",
+        "description": "Supposedly adapted to Wisconsin winters",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "variable",
+      "habitat_preference": ["Wisconsin forests", "northern wilderness"],
+      "diet": "Herbivorous (like kangaroos)",
+      "patterns": [
+        "Bounds across forests in great leaps",
+        "Escaped from lumber camps",
+        "Adapted to northern climate",
+        "Avoids human contact"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Wisconsin and surrounding northern forests",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Wisconsin", "Northern United States"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "1910",
+        "circa": true,
+        "source": "Lumberjack tall tale collections, Wisconsin lumber camps"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "American occupational folklore from Wisconsin lumber camps",
+      "folklore_connections": "Has pseudo-plausible origin story (Australian import) to add believability"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Wisconsin lumberjack tall tales"],
+      "beliefs": "Allegedly imported from Australia; escaped into Wisconsin wilderness"
+    },
+    "popular_culture": {
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910"
+    }
+  ]
+}
