@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/billdad",
     "maintainers": [
       {
@@ -16,111 +16,223 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "billdad",
     "name": "Billdad",
-    "aliases": [],
+    "aliases": [
+      { "name": "Saltipiscator falcorostratus", "language": "Mock Latin", "meaning": "'Leaping fisher with the falcon's beak' — humorous binomial in W. T. Cox (1910)" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter (lumberwoods folklore)",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "maine",
+      "boundary-pond",
+      "tall-tale",
+      "north-american-folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Billdad is unusual among fearsome critters because it comes with an origin story.",
-      "full": "The Billdad is unusual among fearsome critters because it comes with an origin story. According to Wisconsin lumberjack tall tales, this kangaroo-like creature was imported from Australia—either by lumber companies seeking exotic work animals or by entrepreneurs with unclear intentions. The Billdads escaped into the Wisconsin wilderness, where they adapted to the northern climate and continue to bound through the forests."
+      "summary": "A small, kangaroo-legged, hawk-billed amphibious creature of North American lumberjack folklore, said to live only at Boundary Pond in northwestern Maine and to fish by leaping over surface fish and stunning them with a tail-slap.",
+      "full": "The Billdad (mock-Latin name Saltipiscator falcorostratus) is a fearsome critter from the tall-tale tradition of North American lumber camps. The creature is described and illustrated by William T. Cox in Fearsome Creatures of the Lumberwoods (1910), the canonical source for the genre. According to Cox, the Billdad lives only around Boundary Pond in northwestern Maine. About the size of a beaver, it has long kangaroo-like hind legs, short forelegs, webbed feet, and a heavy hawk-like bill. It hunts by waiting until a fish breaks the surface to seize an insect, then leaping — reportedly up to 60 yards (about 55 metres) — to land beside it and stun it with a tail-slap before swallowing the prey. Cox's text closes with the comic anecdote of Bill Murphy, a tote-road swamper from Ambegegis, who tasted Billdad stew at a Great Northern Paper Company camp on Hurricane Lake and immediately leapt fifty yards into the lake in imitation of the creature, sinking like a stone. As with the rest of the fearsome critters, the Billdad is a piece of literary folklore — an entertainment, not a serious cryptozoological claim — that lumber-camp storytellers used to play tricks on greenhorns."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by William T. Cox in Fearsome Creatures of the Lumberwoods (1910), the foundational literary catalogue of North American lumberjack tall-tale fauna.",
+      "meaning": "The 'bill' refers to the hawk-like beak; 'dad' is dialectal for 'fellow'. Cox's mock-binomial Saltipiscator falcorostratus glosses 'leaping fisher with a falcon's beak'.",
+      "first_use": "1910 (William T. Cox)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "North American lumberwoods folklore",
+      "variant": "Maine"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "fearsome-critters", "name": "Fearsome critters", "relationship": "superset", "description": "Genre of North American lumber-camp tall-tale fauna recorded by Cox (1910) and Tryon (1939)" },
+      { "id": "hugag", "name": "Hugag", "relationship": "similar", "description": "Cox 1910 fearsome critter; jointless-legged moose" },
+      { "id": "axehandle-hound", "name": "Axehandle hound", "relationship": "similar", "description": "Cox 1910 fearsome critter; long-bodied dog that eats axe handles" },
+      { "id": "hodag", "name": "Hodag", "relationship": "similar", "description": "Wisconsin lumber-camp fearsome critter" },
+      { "id": "splintercat", "name": "Splintercat", "relationship": "similar", "description": "Cox 1910 fearsome critter; tree-shattering wildcat" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.5, "max": 0.7, "unit": "meters", "confidence": "low" },
+      "weight": { "min": 18, "max": 27, "unit": "kilograms", "confidence": "low" },
+      "coloration": ["brown / pondwater colours per Cox's illustration"],
+      "features": [
+        { "feature": "Hawk-like bill", "description": "Heavy curved beak used to grasp stunned fish", "frequency": "always" },
+        { "feature": "Kangaroo-like hind legs", "description": "Long, powerful hind legs used for prodigious leaps over open water", "frequency": "always" },
+        { "feature": "Short forelegs", "description": "Small forelimbs used in a sitting posture", "frequency": "always" },
+        { "feature": "Webbed feet", "description": "Webbing on all four feet for swimming and aquatic landing", "frequency": "always" },
+        { "feature": "Heavy tail", "description": "Used to slap the water and stun fish on landing", "frequency": "always" }
+      ],
+      "morphology": "Per Cox: about the size of a beaver, with kangaroo hindquarters, webbed feet, and a hawk-like head. Cox provides an illustration in Fearsome Creatures of the Lumberwoods (1910)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Long leap", "description": "Reportedly able to leap up to 60 yards (~55 m) from a sitting position to land beside a surfaced fish", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Stunning tail-slap", "description": "Strikes the water on landing hard enough to stun the target fish", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "crepuscular",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Boundary Pond, northwestern Maine (per Cox)", "Quiet pond margins"],
+      "diet": "Surface-feeding pond fish, taken by leap-and-slap predation",
+      "patterns": [
+        "Hunts at the moment fish break the surface to take an insect",
+        "Sound of the tail-slap is reportedly indistinguishable from a paddle stroke; canoeists are sometimes mistaken for Billdads and vice versa",
+        "Stays in the immediate vicinity of Boundary Pond"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Localised exclusively to Boundary Pond in northwestern Maine, on the Canadian border, per Cox (1910).",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Maine",
+        "Northern Maine lumberwoods",
+        "Boundary Pond"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Boundary Pond",
+        "location": {
+          "description": "Boundary Pond, northwestern Maine, on the U.S.–Canada border",
+          "country": "United States",
+          "region": "Maine",
+          "coordinates": { "latitude": 45.95, "longitude": -70.62 }
+        },
+        "peak_period": "Late 19th to early 20th century logging era",
+        "notes": "Cox's stated and only locale for the Billdad"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910",
+        "circa": false,
+        "source": "William T. Cox, Fearsome Creatures of the Lumberwoods"
+      },
+      "peak_activity_periods": [
+        { "period": "1880s–1910s", "description": "Heyday of Maine logging-camp tall-tale culture in which fearsome critters circulated as oral folklore" },
+        { "period": "1910–1939", "description": "Literary codification by Cox (1910) and Tryon (1939)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "North American lumber camps of the late 19th and early 20th century, especially the Northeast (Maine, New Hampshire, Vermont) and the Great Lakes states. Tall tales served as initiation pranks for greenhorns and as evening entertainment.",
+      "earliest_accounts": "William T. Cox, Fearsome Creatures of the Lumberwoods (1910). The Billdad does not appear in sources predating Cox.",
+      "folklore_connections": "Part of the fearsome-critter genre alongside the hodag, hugag, axehandle hound, splintercat, snallygaster, hidebehind, sidehill gouger, and many others."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods, including the Billdad with description and illustration", "significance": "Canonical source for the Billdad", "source": "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods, Judd & Detweiler" },
+      { "date": "1939", "event": "Henry H. Tryon's Fearsome Critters compiles further such creatures", "significance": "Second major literary codification of the genre", "source": "Tryon, H. H. (1939), Fearsome Critters" }
+    ],
+    "modern_era": "The Billdad survives as a mascot of New England folklore tourism (signage, podcasts, gift-shop ephemera). It is occasionally rediscovered by the cryptozoological internet but is correctly understood as deliberately constructed literary folklore."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "date_range": { "earliest": "1910", "latest": "1939" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "billdad-evidence-cox-1910",
+        "type": "book entry",
+        "name": "Fearsome Creatures of the Lumberwoods (Cox 1910)",
+        "date": "1910",
+        "description": "Original illustrated entry for the Billdad with mock-Latin name Saltipiscator falcorostratus, including the Bill Murphy / Hurricane Lake anecdote.",
+        "status": "verified",
+        "analysis": "Sole canonical source. Cox compiled the book partly from camp lore and partly from his own invention.",
+        "source": "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods, pp. 39–40"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Literary tall-tale tradition",
+        "description": "The Billdad is a piece of authored folklore, partly drawn from oral camp tradition and partly invented by Cox. It is not a zoological hypothesis.",
+        "proponents": ["Loren Coleman", "Robert E. Gard (Wisconsin Lore)"],
+        "evidence_cited": ["Stylistic features of Cox's text", "Comparable provenance of other Cox/Tryon critters"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Authored folklore — no zoological reality",
+        "description": "There is no field evidence, specimen, or pre-1910 attestation; the Billdad's behaviour (60-yard standing leaps) is biomechanically impossible at the stated body size.",
+        "proponents": ["Mainstream folklorists"],
+        "evidence_cited": ["Absence of pre-1910 accounts", "Internal humour of Cox's text (Bill Murphy anecdote)"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American fearsome-critter / lumberwoods tall-tale tradition",
+        "Maine logging-camp storytelling"
+      ],
+      "stories": [
+        "The Bill Murphy / Hurricane Lake anecdote (Cox 1910)"
+      ],
+      "beliefs": "Universally understood as humorous folklore rather than literal cryptozoology, both today and at the time of Cox's writing."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods — William T. Cox (1910)",
+        "Fearsome Critters — Henry H. Tryon (1939)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Maine cryptid tourism (signage, brewery and shop branding)",
+        "New England Legends and similar regional podcasts"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester", "contribution": "Author of the canonical Fearsome Creatures of the Lumberwoods (1910)", "period": "1908–1910" },
+      { "name": "Henry H. Tryon", "affiliation": "Black Rock Forest, NY", "contribution": "Compiler of Fearsome Critters (1939)", "period": "1930s" },
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Modern recontextualisation of fearsome critters as American folklore", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "International Cryptozoology Museum", "url": "https://cryptozoologymuseum.com", "focus": "Includes fearsome critter ephemera and exhibits" }
+    ],
+    "ongoing_studies": "No active scientific research; the Billdad is studied as folklore rather than zoology."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press", "date": "1939" },
+    { "id": "wikipedia-fearsome-critters", "type": "website", "title": "Fearsome critters", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" },
+    { "id": "abookofcreatures-billdad", "type": "website", "title": "Billdad", "publication": "A Book of Creatures", "url": "https://abookofcreatures.com/2021/04/12/billdad/", "accessed": "2026-05-07" }
+  ]
 }
